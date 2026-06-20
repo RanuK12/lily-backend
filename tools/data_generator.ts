@@ -98,11 +98,15 @@ function randomHex(rng: () => number, bytes: number): string {
   return result;
 }
 
+// Fixed epoch for deterministic timestamps when seed is provided
+const EPOCH = new Date("2025-01-01T00:00:00Z");
+
 export function generateAuditData(
   count: number,
   seed?: number,
 ): AuditEntry[] {
   const rng = seed !== undefined ? mulberry32(seed) : Math.random;
+  const baseDate = seed !== undefined ? EPOCH : new Date();
 
   const entries: AuditEntry[] = [];
   for (let i = 0; i < count; i++) {
@@ -111,7 +115,7 @@ export function generateAuditData(
       agentId: `agent_${randomHex(rng, 4)}`,
       action: pick(ACTIONS, rng),
       timestamp: new Date(
-        Date.now() - Math.floor(rng() * 30 * 24 * 60 * 60 * 1000),
+        baseDate.getTime() - Math.floor(rng() * 30 * 24 * 60 * 60 * 1000),
       ).toISOString(),
       metadata: {
         source: pick(["api", "cli", "webhook", "scheduler"], rng),
