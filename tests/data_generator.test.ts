@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { generateAuditData, main } from "../tools/data_generator";
-import { readFileSync, existsSync, readdirSync, unlinkSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync, unlinkSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 const TEST_OUTPUT_DIR = join(__dirname, "__data_gen_output__");

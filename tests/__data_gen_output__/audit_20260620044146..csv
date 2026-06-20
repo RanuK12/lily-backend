@@ -1,3 +1,0 @@
-id,agentId,action,timestamp,metadata,severity
-"953e485d-30e8-4f02-a5c2-ac213b81ba66","agent_a00087fb","query","2024-12-23T13:36:19.721Z","{""source"":""webhook"",""durationMs"":3603,""success"":true}","critical"
-"e607c32c-9682-418f-8466-397ddf27c59b","agent_747d2367","create","2024-12-27T08:45:53.795Z","{""source"":""cli"",""durationMs"":336,""success"":true}","critical"
