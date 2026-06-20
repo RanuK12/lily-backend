@@ -1,0 +1,26 @@
+[
+  {
+    "id": "08d762e8-98bc-45e6-ab2c-687dcfd1eea8",
+    "agentId": "agent_a00087fb",
+    "action": "query",
+    "timestamp": "2026-06-11T18:16:47.470Z",
+    "metadata": {
+      "source": "webhook",
+      "durationMs": 3603,
+      "success": true
+    },
+    "severity": "critical"
+  },
+  {
+    "id": "641ca796-5d28-495f-8527-711e19fbf6cc",
+    "agentId": "agent_747d2367",
+    "action": "create",
+    "timestamp": "2026-06-15T13:26:21.544Z",
+    "metadata": {
+      "source": "cli",
+      "durationMs": 336,
+      "success": true
+    },
+    "severity": "critical"
+  }
+]
