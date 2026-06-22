@@ -1,0 +1,122 @@
+[
+  {
+    "id": "9207c74b-1434-4e6f-a7aa-af83c405251a",
+    "agentId": "agent_9972daab",
+    "action": "create",
+    "timestamp": "2024-12-16T04:51:12.131Z",
+    "metadata": {
+      "source": "cli",
+      "durationMs": 3123,
+      "success": true
+    },
+    "severity": "warn"
+  },
+  {
+    "id": "be4c6d73-3120-4be6-a6ab-98def510625a",
+    "agentId": "agent_3fe1be4e",
+    "action": "create",
+    "timestamp": "2024-12-16T23:28:29.168Z",
+    "metadata": {
+      "source": "webhook",
+      "durationMs": 3053,
+      "success": false
+    },
+    "severity": "warn"
+  },
+  {
+    "id": "bdd3e7a3-36b8-4ea5-b645-65153e604d16",
+    "agentId": "agent_d60d9708",
+    "action": "update",
+    "timestamp": "2024-12-30T03:31:02.631Z",
+    "metadata": {
+      "source": "api",
+      "durationMs": 3917,
+      "success": true
+    },
+    "severity": "info"
+  },
+  {
+    "id": "0297ad1a-018e-440b-b55e-1e6d2e30c4be",
+    "agentId": "agent_2cd77ccf",
+    "action": "update",
+    "timestamp": "2024-12-18T12:04:30.272Z",
+    "metadata": {
+      "source": "api",
+      "durationMs": 256,
+      "success": true
+    },
+    "severity": "error"
+  },
+  {
+    "id": "2943e070-9497-4b03-9f0b-78d46e9a5173",
+    "agentId": "agent_3ea5354d",
+    "action": "delete",
+    "timestamp": "2024-12-06T05:43:41.298Z",
+    "metadata": {
+      "source": "webhook",
+      "durationMs": 1020,
+      "success": true
+    },
+    "severity": "warn"
+  },
+  {
+    "id": "33dee128-2171-4f2c-9fe1-0d0b18495713",
+    "agentId": "agent_13a8aeb1",
+    "action": "query",
+    "timestamp": "2024-12-29T08:39:46.878Z",
+    "metadata": {
+      "source": "scheduler",
+      "durationMs": 2155,
+      "success": true
+    },
+    "severity": "info"
+  },
+  {
+    "id": "0506799f-463d-445e-8ebd-30f4660dc235",
+    "agentId": "agent_1c045c7b",
+    "action": "delete",
+    "timestamp": "2024-12-05T00:19:05.734Z",
+    "metadata": {
+      "source": "api",
+      "durationMs": 3597,
+      "success": true
+    },
+    "severity": "warn"
+  },
+  {
+    "id": "b23078e2-45d1-4838-bcb4-3d865875dd20",
+    "agentId": "agent_b42d85d2",
+    "action": "create",
+    "timestamp": "2024-12-02T03:08:24.659Z",
+    "metadata": {
+      "source": "webhook",
+      "durationMs": 4580,
+      "success": true
+    },
+    "severity": "error"
+  },
+  {
+    "id": "cd5540a1-9ea6-4346-9363-a8a8e91fd37e",
+    "agentId": "agent_569852ba",
+    "action": "update",
+    "timestamp": "2024-12-18T12:10:14.988Z",
+    "metadata": {
+      "source": "scheduler",
+      "durationMs": 3475,
+      "success": true
+    },
+    "severity": "critical"
+  },
+  {
+    "id": "ea8c290f-fe60-4886-8018-48f20e81c13d",
+    "agentId": "agent_6e8b4b19",
+    "action": "delete",
+    "timestamp": "2024-12-22T14:25:11.876Z",
+    "metadata": {
+      "source": "scheduler",
+      "durationMs": 4523,
+      "success": false
+    },
+    "severity": "warn"
+  }
+]

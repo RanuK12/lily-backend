@@ -1,0 +1,32 @@
+# Diagnostic Artifact — data_generator.ts fix
+# Generated: 2026-06-22T11:06:27Z
+# Bounty: $50 (LT) — Issue #38
+
+## Verification
+
+1. --format both: creates BOTH .json and .csv ✓
+2. Negative count: rejected with clear error ✓
+3. Same seed: deterministic output ✓
+4. Tests: 12/12 passing ✓
+5. Lint: clean ✓
+6. Build: clean ✓
+
+## Test output
+
+$ npx tsx tools/data_generator.ts --count 10 --seed 42 --format both --output tests/__data_gen_output__
+Wrote 10 entries to tests/__data_gen_output__/audit_20260622110627..json
+Wrote 10 entries to tests/__data_gen_output__/audit_20260622110627..csv
+
+$ ls -la tests/__data_gen_output__/
+audit_20260622110627..csv
+audit_20260622110627..json
+
+## Sample JSON entry
+First entry from generated output:
+{
+  "id": "9207c74b-1434-4e6f-a7aa-af83c405251a",
+  "agentId": "agent_9972daab",
+  "action": "create",
+  "timestamp": "2024-12-16T04:51:12.131Z",
+  "severity": "warn"
+}

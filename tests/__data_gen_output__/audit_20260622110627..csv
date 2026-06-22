@@ -1,0 +1,11 @@
+id,agentId,action,timestamp,metadata,severity
+"9207c74b-1434-4e6f-a7aa-af83c405251a","agent_9972daab","create","2024-12-16T04:51:12.131Z","{""source"":""cli"",""durationMs"":3123,""success"":true}","warn"
+"be4c6d73-3120-4be6-a6ab-98def510625a","agent_3fe1be4e","create","2024-12-16T23:28:29.168Z","{""source"":""webhook"",""durationMs"":3053,""success"":false}","warn"
+"bdd3e7a3-36b8-4ea5-b645-65153e604d16","agent_d60d9708","update","2024-12-30T03:31:02.631Z","{""source"":""api"",""durationMs"":3917,""success"":true}","info"
+"0297ad1a-018e-440b-b55e-1e6d2e30c4be","agent_2cd77ccf","update","2024-12-18T12:04:30.272Z","{""source"":""api"",""durationMs"":256,""success"":true}","error"
+"2943e070-9497-4b03-9f0b-78d46e9a5173","agent_3ea5354d","delete","2024-12-06T05:43:41.298Z","{""source"":""webhook"",""durationMs"":1020,""success"":true}","warn"
+"33dee128-2171-4f2c-9fe1-0d0b18495713","agent_13a8aeb1","query","2024-12-29T08:39:46.878Z","{""source"":""scheduler"",""durationMs"":2155,""success"":true}","info"
+"0506799f-463d-445e-8ebd-30f4660dc235","agent_1c045c7b","delete","2024-12-05T00:19:05.734Z","{""source"":""api"",""durationMs"":3597,""success"":true}","warn"
+"b23078e2-45d1-4838-bcb4-3d865875dd20","agent_b42d85d2","create","2024-12-02T03:08:24.659Z","{""source"":""webhook"",""durationMs"":4580,""success"":true}","error"
+"cd5540a1-9ea6-4346-9363-a8a8e91fd37e","agent_569852ba","update","2024-12-18T12:10:14.988Z","{""source"":""scheduler"",""durationMs"":3475,""success"":true}","critical"
+"ea8c290f-fe60-4886-8018-48f20e81c13d","agent_6e8b4b19","delete","2024-12-22T14:25:11.876Z","{""source"":""scheduler"",""durationMs"":4523,""success"":false}","warn"
